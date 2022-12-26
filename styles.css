@@ -1,33 +1,48 @@
-body{
-    background-color: rgb(24, 23, 23);
+* {
+  margin: 0 auto;
+  padding: 0;
 }
 
-h1{
-    color: rgb(228, 226, 224);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 5em;
+.max-width {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.btn{
-    width: 6em;
-    height: 2.5em;
-    border-radius: 15px;
-    border: 1px solid rgb(228, 226, 224);
-    background-color: rgb(24, 23, 23);
-    color: rgb(228, 226, 224);
-    cursor: pointer;
-    
-
+body {
+  background-color: rgb(24, 23, 23);
+}
+section {
+  text-align: center;
 }
 
-#start-btn{
-    font-family: 'Courier New', Courier, monospace;
+h1 {
+  color: rgb(228, 226, 224);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4em;
+  margin-top: 20px;
 }
 
-#pause-btn{
-    font-family: 'Courier New', Courier, monospace;
+.btn {
+  width: 6em;
+  height: 2.5em;
+  border-radius: 15px;
+  border: 1px solid rgb(228, 226, 224);
+  background-color: rgb(24, 23, 23);
+  color: rgb(228, 226, 224);
+  cursor: pointer;
+  margin-top: 20px;
 }
 
-#stop-btn{
-    font-family: 'Courier New', Courier, monospace;
+#start-btn {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#pause-btn {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#stop-btn {
+  font-family: "Courier New", Courier, monospace;
 }

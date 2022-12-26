@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(24, 23, 23);
+}
+
+h1{
+    color: rgb(228, 226, 224);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+}
+
+.btn{
+    width: 6em;
+    height: 2.5em;
+    border-radius: 15px;
+    border: 1px solid rgb(228, 226, 224);
+    background-color: rgb(24, 23, 23);
+    color: rgb(228, 226, 224);
+    cursor: pointer;
+    
+
+}
+
+#start-btn{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pause-btn{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#stop-btn{
+    font-family: 'Courier New', Courier, monospace;
+}
